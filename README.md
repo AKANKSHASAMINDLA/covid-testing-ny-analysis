@@ -123,6 +123,9 @@ Because of this, I treated the average cumulative value mainly as a required out
 - Missing breakdowns: Several detailed metrics (e.g., some antigen-related fields) are never reported for New York and are dropped from the NY subset.
 - State-level view: All results are at the state level and do not capture county or city-level variation.
 
+## Why I Used Jupyter Notebook
+I used Jupyter Notebook for this analysis because it provides an interactive, step-by-step environment that fits exploratory data work. It allows running code in small increments, inspecting results immediately, and adjusting the approach quickly. The notebook format also lets me combine Python code with markdown explanations, making the workflow clear, documented, and fully reproducible. Visualizations render inline, which is useful for validating trends fast. Since Jupyter is widely used in real-world data engineering and data science workflows, it was the most efficient tool for this exercise.
+
 ## Future Work
 
 - Compare New York testing patterns with other large states.
